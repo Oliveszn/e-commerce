@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 80%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.info__section {
+  margin-top: 0.8em;
+  padding: 0.8rem 1.2rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: hsl(26, 100%, 55%);
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  max-width: 40%;
+}
+
+.info_text {
+  margin-bottom: 1.3em;
+  color: hsl(219, 9%, 45%);
+  max-width: 80%;
+}
+
+.info__cash {
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.discount {
+  margin-right: 0.7em;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.percent {
+  font-size: 1rem;
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+  padding: 2px;
+}
+
+.price {
+  color: hsl(219, 9%, 45%);
+  text-decoration: line-through;
+}
+
+.cart-img {
+  max-width: 20px;
+}
+
+span {
+  background-color: hsl(223, 64%, 98%);
+  width: 100%;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  border-radius: 7px;
+}
+
+.cart-btn {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem 1.2rem;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 7px;
+}
+
+/* NAVIGATION */
+nav {
+  align-items: center;
+  padding: 1em;
+  justify-content: space-around;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav__item {
+  list-style: none;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(219, 9%, 45%);
+}
+
+.avatar-img {
+  max-width: 30px;
+}
